@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Xử lí mảng</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="So" placeholder="Nhập thêm 1 số vào danh sách">
+                <button type="button" class="btn btn-primary" id="SubmitMang">Submit</button>
+                <div id="KhaiBaoMang" class="alert alert-primary"></div>
+                <div id="Fresult" class="alert alert-primary"></div>
+
+            </div>
+            <div class="row justify-content-between">
+
+            <!-- Tổng các số dương trong mảng -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="TongSoDuongbtn">1.Tổng các số dương</button>
+            </div>
+            <!-- Đếm có bao nhiêu số dương trong mảng -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="CountPosbtn">2.Đếm có bao nhiêu số dương</button>
+            </div>
+            <!-- Tìm số nhỏ nhất trong mảng -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="FindSmallestBtn">3.Tìm số nhỏ nhất</button>
+            </div>
+            <!-- Tìm số dương nhỏ nhất trong mảng -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="FindSmallestPosBtn">4.Tìm số dương nhỏ nhất</button>
+            </div>
+                <!-- Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị chẵn thì trả về -1 -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="FindLastEvenBtn">5.Tìm số chẵn cuối cùng trong mảng</button>
+            </div>
+                <!-- Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho nhập vào 2 vị trí muốn đổi chỗ giá trị) -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="SwapPositionBtn">6.Đổi chỗ 2 giá trị</button>
+                <input type="text" class="form-control" id="PositionToChange1" placeholder="Nhập vị trí số thứ nhất">
+                <input type="text" class="form-control" id="PositionToChange2" placeholder="Nhập vị trí số thứ hai">
+            </div>
+            <!-- Sắp xếp mảng theo thứ tự tăng dần -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="SortBtn">7.Sắp xếp mảng theo thứ tự tăng dần.</button>
+            </div>
+            <!-- Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số nguyên tố thì trả về – 1. -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="FindfstPrimeBtn">8.Tìm số nguyên tố đầu tiên</button>
+            </div>
+            <!-- Nhập thêm 1 mảng số thực, tìm xem trong mảng có bao nhiêu số nguyên? -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="SubmitFloatBtn">9.Nhập thêm 1 mảng số thực và đếm số nguyên</button>
+                <input type="number" class="form-control" id="NumFloat" placeholder="Thêm 1 số thực">
+                <div id="FloatResult" class="alert alert-primary"></div>
+            </div>
+            <!-- So sánh số lượng số dương và số lượng số âm xem số nào nhiều hơn. -->
+            <div class="form-group col-5">
+                <button type="button" class="btn btn-primary" id="SoSanhDuongAmBtn">10. So sánh số lượng số dương và số lượng số âm</button>
+            </div>
+        </div>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
